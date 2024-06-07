@@ -1,0 +1,88 @@
+body{
+    background-color: rgba(97, 95, 95, 0.904);/* Cor do Plano de Fundo*/
+    color: #000;
+    font-size: 20px; /* Tamanho da Fonte*/
+    margin: 20; /* Margem em relação a tela */
+}/* Comentarios */
+
+header{
+    border: 2px solid #000;
+    text-align: center;
+    text-decoration: none;
+}/* Seletor do Cabeçalho */
+
+.botoesMenu, li{
+    color: #fff;
+    list-style-type: none;/* Remover as bolinhas dos topicos*/
+    display: inline; /* Transformar coluna em linha*/
+    border: 2px solid #000;
+    padding: 50px;
+    background-color: #000;
+}
+
+ul{
+    margin-bottom: 3%;
+
+}
+
+li:hover{
+    background-color: #444;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+    border: 10px solid #888;
+    background-image: url("../IMAGENS/Fundo\ Cinza.jpg");
+}/* Modifica o conteudo original da TAG */
+
+.titulo{
+    font-size: 500%;
+
+}/* Chamando a classe*/
+
+aside{
+    background-image: url("../IMAGENS/");
+    background-repeat: no-repeat;
+}
+
+.imgFmt{
+    /* Formatar a Imagem*/
+    width: 70%;
+    height: 50%;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: 35%;
+    grid-gap: 1%;
+    margin-left: 5%;
+}
+
+article{
+    border: 2px solid #000;
+    text-align: center;
+    color: #000;
+    font-size: 90%;
+    background-color: #fff;
+    padding-bottom: 5%;
+}
+
+h3{
+    border: 2px solid #000;
+    margin-top: 0%;
+    padding: 2%;
+    background-color: #000;
+    color: #fff;
+    font-size: 130%;
+}
+
+.preco{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    font: 130%;
+    border-radius: 60%;
+}
